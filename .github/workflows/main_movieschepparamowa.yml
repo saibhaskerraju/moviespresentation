@@ -53,4 +53,4 @@ jobs:
           app-name: 'movieschepparamowa'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0CB3CAB0B6764C76A5A8D43AFEA3B3BF }}
-          package: .
+          package: ./dist/presentation
